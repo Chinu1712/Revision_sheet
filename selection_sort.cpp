@@ -6,10 +6,10 @@ void selection_sort(vector<int>&nums){
       if(nums[mini] > nums[j]){
        mini = j;
       }
-      int temp = nums[mini];
+  }
+     int temp = nums[mini];
       nums[mini] = nums[i];
       nums[i] = temp;
-  }
 }
 }
 int main(){
